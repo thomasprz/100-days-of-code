@@ -5,9 +5,9 @@ function calculerFactorielle(nombre) {
         throw new Error("L'entrée doit être un entier positif ou nul");
     }
 
-    let resultat = 1; // Initialisation du résultat à 1
+    let resultat = 1;
     for (let i = 1; i <= nombre; i++) {
-        resultat *= i; // Multiplier le résultat par i
+        resultat *= i;
     }
     return resultat;
 }
