@@ -9,6 +9,7 @@ function findMinMax(numbers) {
 
 console.log(findMinMax([3, 7, 2, 9, 5])); 
 
-//!Array.isArray(numbers) --> Vérifie si numbers n'est pas un tableau.
-//numbers.length === 0 --> Vérifie si le tableau est vide
+//Array.isArray(numbers) : Vérifie si numbers est un tableau. Si c'est un tableau, cela retourne true.
+//!Array.isArray(numbers) : Si ce n'est pas un tableau, on lance une erreur."
+//numbers.length === 0 : Si le tableau est vide, on lance une erreur.
 
